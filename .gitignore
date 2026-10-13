@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+ui/dist/
+cache/*
+!cache/.gitkeep
+logs/
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+ui/vite.config.js
+ui/vite.config.d.ts
+
+# Local browser/debug artifacts and generated visual-review screenshots
+.edge-debug/
+.edge-shot-mobile/
+.uizze/
+/baseline-dashboard.png
+/redesign-*.png
+
+# Never publish local credentials or environment files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+credentials*.json
+*.sqlite
+*.sqlite3

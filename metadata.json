@@ -1,0 +1,14 @@
+{
+  "name": "skillbridge",
+  "version": "0.1.0",
+  "description": "Local-first AI Skills control center for discovering, understanding, managing, and safely syncing AI Agent Skills.",
+  "entry": "backend/main.py",
+  "commands": {
+    "dashboard": "python backend/main.py dashboard"
+  },
+  "platforms": ["windows"],
+  "localOnly": true,
+  "phases": {
+    "current": 1
+  }
+}
